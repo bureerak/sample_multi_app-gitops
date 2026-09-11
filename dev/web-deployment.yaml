@@ -21,7 +21,7 @@ spec:
 
       containers:
         - name: web
-          image: bureerak/sample_multi_app:v1.0
+          image: bureerak/sample_multi_app:v1.1
 
           ports:
             - containerPort: 8080
