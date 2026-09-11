@@ -16,6 +16,9 @@ spec:
         app: sample-multi-app
 
     spec:
+      imagePullSecrets:
+        - name: dockerhub-cred
+
       containers:
         - name: web
           image: bureerak/sample_multi_app:v1.0
